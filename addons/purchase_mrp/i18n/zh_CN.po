@@ -118,7 +118,7 @@ msgstr "制造来源 %s"
 msgid ""
 "Odoo is not able to generate the anglo saxon entries. The total valuation of "
 "%s is zero."
-msgstr "Odoo 无法生成 anglo saxon 条目。%s 的总估值为零。"
+msgstr "TenvioX 无法生成 anglo saxon 条目。%s 的总估值为零。"
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_purchase_order

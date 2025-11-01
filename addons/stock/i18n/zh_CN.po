@@ -1799,7 +1799,7 @@ msgstr "在安排日期之前"
 msgid ""
 "Below text serves as a suggestion and doesn’t engage Odoo S.A. "
 "responsibility."
-msgstr "以下文字仅供参考，Odoo S.A.不承担责任。"
+msgstr "以下文字仅供参考，TenvioX S.A.不承担责任。"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package__quant_ids
@@ -4310,42 +4310,42 @@ msgstr ""
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the delivery slip "
 "of a picking when it is validated."
-msgstr "如果勾选该复选框，Odoo 将在拣货验证后自动打印交货单。"
+msgstr "如果勾选该复选框，TenvioX 将在拣货验证后自动打印交货单。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_lot_labels
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the lot/SN labels "
 "of a picking when it is validated."
-msgstr "如果勾选该复选框，Odoo 将在验证拣货时自动打印拣货的批次/SN 标签。"
+msgstr "如果勾选该复选框，TenvioX 将在验证拣货时自动打印拣货的批次/SN 标签。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_package_label
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the package label "
 "when \"Put in Pack\" button is used."
-msgstr "如果勾选该复选框，Odoo 将在使用 \"放入包装 \"按钮时自动打印包装标签。"
+msgstr "如果勾选该复选框，TenvioX 将在使用 \"放入包装 \"按钮时自动打印包装标签。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_packages
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the packages and "
 "their contents of a picking when it is validated."
-msgstr "如果勾选该复选框，Odoo 将在采样验证时自动打印采样包及其内容。"
+msgstr "如果勾选该复选框，TenvioX 将在采样验证时自动打印采样包及其内容。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_product_labels
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a picking when it is validated."
-msgstr "如果勾选该复选框，Odoo 将在采摘验证时自动打印产品标签。"
+msgstr "如果勾选该复选框，TenvioX 将在采摘验证时自动打印产品标签。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report_labels
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the reception "
 "report labels of a picking when it is validated."
-msgstr "如果勾选该复选框，Odoo 将在采摘验证时自动打印采摘的接收报告标签。"
+msgstr "如果勾选该复选框，TenvioX 将在采摘验证时自动打印采摘的接收报告标签。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_print_reception_report
@@ -4360,7 +4360,7 @@ msgstr ""
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the return slip of "
 "a picking when it is validated."
-msgstr "如果勾选该复选框，Odoo 将在验证拣货时自动打印退货单。"
+msgstr "如果勾选该复选框，TenvioX 将在验证拣货时自动打印退货单。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__auto_show_reception_report
@@ -13148,7 +13148,7 @@ msgstr "${object.company_id.name} 交货单 (Ref ${object.name or 'n/a' })"
 #~ msgid ""
 #~ "You have not recorded <i>done</i> quantities yet, by clicking on "
 #~ "<i>apply</i> Odoo will process all the quantities."
-#~ msgstr "您尚未记录<i>完成</i>的数量，单击<i>应用</i>，Odoo将处理所有数量。"
+#~ msgstr "您尚未记录<i>完成</i>的数量，单击<i>应用</i>，TenvioX将处理所有数量。"
 
 #~ msgid ""
 #~ "You have to select a product unit of measure that is in the same category "

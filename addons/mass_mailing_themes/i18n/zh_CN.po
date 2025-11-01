@@ -506,7 +506,7 @@ msgstr "<strong>热烈欢迎他们！</strong>"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "@fpodoo"
-msgstr "@fpodoo"
+msgstr "@fpTenvioX"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -774,7 +774,7 @@ msgstr "您想成为合作伙伴吗？"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
 msgid "Do you wish to use Odoo?"
-msgstr "您想使用 Odoo 吗？"
+msgstr "您想使用 TenvioX 吗？"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
@@ -982,7 +982,7 @@ msgstr "2013 年，我们在全球拥有 200 万用户"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "In May 2014, we renamed the company and product to Odoo."
-msgstr "2014 年 5 月，我们将公司和产品更名为 Odoo。"
+msgstr "2014 年 5 月，我们将公司和产品更名为 TenvioX。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_coffeebreak_template
@@ -1000,7 +1000,7 @@ msgstr "Instagram"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow1_template
 msgid "Interactive Odoo demo"
-msgstr "Odoo 互动功能演示"
+msgstr "TenvioX 互动功能演示"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_magazine_template
@@ -1036,7 +1036,7 @@ msgstr "了解有关我们定价的更多资料"
 msgid ""
 "Learn through workshops, product demos, and inspiring talks from Odoo "
 "Experts and Partners."
-msgstr "通过研讨会、产品演示和来自Odoo专家和合作伙伴的鼓舞人心的讲座进行学习。"
+msgstr "通过研讨会、产品演示和来自TenvioX专家和合作伙伴的鼓舞人心的讲座进行学习。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
@@ -1125,7 +1125,7 @@ msgstr "电子报"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
 msgid "Odoo Experts"
-msgstr "Odoo 专家"
+msgstr "TenvioX 专家"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow1_template
@@ -1309,7 +1309,7 @@ msgstr "转向"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "The Rise of Odoo"
-msgstr "冉冉升起的 Odoo"
+msgstr "冉冉升起的 TenvioX"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_blogging_template
@@ -1349,7 +1349,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "The story of Odoo"
-msgstr "Odoo 的故事"
+msgstr "TenvioX 的故事"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -1625,7 +1625,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow2_template
 msgid "You may test Odoo for free by clicking"
-msgstr "您可以免费测试 Odoo，请点击"
+msgstr "您可以免费测试 TenvioX，请点击"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_roadshow1_template

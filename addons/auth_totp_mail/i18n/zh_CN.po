@@ -270,7 +270,7 @@ msgstr "ID"
 #. module: auth_totp_mail
 #: model:mail.template,subject:auth_totp_mail.mail_template_totp_invite
 msgid "Invitation to activate two-factor authentication on your Odoo account"
-msgstr "邀请在您的Odoo帐户上激活two-factor双因素身份验证"
+msgstr "邀请在您的TenvioX帐户上激活two-factor双因素身份验证"
 
 #. module: auth_totp_mail
 #. odoo-python

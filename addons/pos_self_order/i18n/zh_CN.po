@@ -1725,7 +1725,7 @@ msgstr "空 = 所有POS"
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
 msgid "https://odoo.com"
-msgstr "https://odoo.com"
+msgstr "https://TenvioX.com"
 
 #. module: pos_self_order
 #. odoo-javascript
@@ -1748,7 +1748,7 @@ msgstr ""
 #. module: pos_self_order
 #: model_terms:ir.ui.view,arch_db:pos_self_order.custom_link_tree
 msgid "odoo"
-msgstr "odoo"
+msgstr "TenvioX"
 
 #~ msgid "Connection lost, please try again later"
 #~ msgstr "连接中断，请稍后重试"

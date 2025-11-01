@@ -690,7 +690,7 @@ msgstr "发送错误的消息的数量"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_preview
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: marketing_card
 #: model:ir.model.fields,help:marketing_card.field_card_campaign__lang
@@ -1091,12 +1091,12 @@ msgstr "例如：财务总监"
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. Join Odoo Experience 2024"
-msgstr "例如：参加2024年Odoo体验活动"
+msgstr "例如：参加2024年TenvioX体验活动"
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form
 msgid "e.g. Odoo Experience Talks"
-msgstr "例如：Odoo 体验展演讲"
+msgstr "例如：TenvioX 体验展演讲"
 
 #. module: marketing_card
 #: model_terms:ir.ui.view,arch_db:marketing_card.card_campaign_view_form

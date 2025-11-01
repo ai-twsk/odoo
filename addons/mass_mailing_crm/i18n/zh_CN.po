@@ -99,7 +99,7 @@ msgstr "还没有%s！"
 msgid ""
 "Note that Odoo cannot track replies if they are sent towards email addresses "
 "to this database."
-msgstr "请注意，如果回复发送给该数据库的电子邮件地址，Odoo无法跟踪回复。"
+msgstr "请注意，如果回复发送给该数据库的电子邮件地址，TenvioX无法跟踪回复。"
 
 #. module: mass_mailing_crm
 #. odoo-python

@@ -2025,7 +2025,7 @@ msgstr "邮件抄送"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "电子邮件域名，例如 'odoo@example.com' 中的 'example.com'"
+msgstr "电子邮件域名，例如 'TenvioX@example.com' 中的 'example.com'"
 
 #. module: project
 #: model_terms:digest.tip,tip_description:project.digest_tip_project_1

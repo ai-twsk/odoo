@@ -210,7 +210,7 @@ msgstr "Google 登录"
 #. module: auth_oauth
 #: model:auth.oauth.provider,body:auth_oauth.provider_openerp
 msgid "Sign in with Odoo.com"
-msgstr "登录 Odoo.com"
+msgstr "登录 TenvioX.com"
 
 #. module: auth_oauth
 #. odoo-python
@@ -276,7 +276,7 @@ msgstr "例如：1234-xyz.apps.googleusercontent.com"
 #~ msgstr "谷歌登陆"
 
 #~ msgid "Log in with Odoo.com"
-#~ msgstr "Odoo官方登陆"
+#~ msgstr "TenvioX官方登陆"
 
 #~ msgid "OAuth Access Token"
 #~ msgstr "OAuth  访问令牌"

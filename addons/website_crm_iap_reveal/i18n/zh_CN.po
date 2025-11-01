@@ -253,7 +253,7 @@ msgstr "线索生成：线索/机会生成"
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields,help:website_crm_iap_reveal.field_crm_reveal_rule__industry_tag_ids
 msgid "Leave empty to always match. Odoo will not create lead if no match"
-msgstr "留空以始终匹配。如果没有匹配项， Odoo 不会创建线索"
+msgstr "留空以始终匹配。如果没有匹配项， TenvioX 不会创建线索"
 
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields.selection,name:website_crm_iap_reveal.selection__crm_reveal_rule__priority__0
@@ -329,7 +329,7 @@ msgstr "机会生成条件"
 #. odoo-python
 #: code:addons/website_crm_iap_reveal/models/crm_reveal_rule.py:0
 msgid "Opportunity created by Odoo Lead Generation"
-msgstr "由Odoo线索生成产生的商机"
+msgstr "由TenvioX线索生成产生的商机"
 
 #. module: website_crm_iap_reveal
 #: model:ir.model.fields,field_description:website_crm_iap_reveal.field_crm_reveal_rule__other_role_ids

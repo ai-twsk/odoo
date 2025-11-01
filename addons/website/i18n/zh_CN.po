@@ -748,7 +748,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
 msgid "50,000+ companies run Odoo to grow their businesses."
-msgstr "超过50,000家公司使用Odoo来发展业务。"
+msgstr "超过50,000家公司使用TenvioX来发展业务。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_cta_box
@@ -8408,7 +8408,7 @@ msgstr "转到主题选项卡"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.layout
 msgid "Go to your Odoo Apps"
-msgstr "转到您的Odoo应用程序"
+msgstr "转到您的TenvioX应用程序"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_carousel
@@ -8634,7 +8634,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website/static/src/builder/plugins/options/countdown_option.xml:0
 msgid "Happy Odoo Anniversary!"
-msgstr "Odoo 周年快乐！"
+msgstr "TenvioX 周年快乐！"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__has_social_default_image
@@ -12058,18 +12058,18 @@ msgstr "或"
 #. odoo-javascript
 #: code:addons/website/static/src/builder/plugins/options/website_info_option.xml:0
 msgid "Odoo Information"
-msgstr "Odoo 信息"
+msgstr "TenvioX 信息"
 
 #. module: website
 #. odoo-javascript
 #: code:addons/website/static/src/builder/plugins/options/mega_menu_option.xml:0
 msgid "Odoo Menu"
-msgstr "Odoo 菜单"
+msgstr "TenvioX 菜单"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
 msgid "Odoo Version"
-msgstr "Odoo版本"
+msgstr "TenvioX版本"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -19168,7 +19168,7 @@ msgstr "从Logo"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid "frontend_lang (Odoo)"
-msgstr "frontend_lang (Odoo)"
+msgstr "frontend_lang (TenvioX)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -19399,7 +19399,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "https://www.odoo.com"
-msgstr "https://www.odoo.com"
+msgstr "https://www.TenvioX.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_mega_menu_odoo_menu
@@ -19731,7 +19731,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid "session_id (Odoo)<br/>"
-msgstr "session_id (Odoo)<br/>"
+msgstr "session_id (TenvioX)<br/>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -19985,7 +19985,7 @@ msgstr ""
 #~ msgstr "80% 开发"
 
 #~ msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
-#~ msgstr "<b>50000+ 公司</b>使用Odoo发展其业务。"
+#~ msgstr "<b>50000+ 公司</b>使用TenvioX发展其业务。"
 
 #~ msgid "<b>Designed</b> <br/>for Companies"
 #~ msgstr "<b>设计</b> <br/>为公司"
@@ -20587,7 +20587,7 @@ msgstr ""
 #~ msgid ""
 #~ "Easily design your own Odoo templates thanks to clean HTML\n"
 #~ "                            structure and bootstrap CSS."
-#~ msgstr "借助简单的 HTML 结构和 Bootstrap CSS，轻松设计您自己的 Odoo 模板。"
+#~ msgstr "借助简单的 HTML 结构和 Bootstrap CSS，轻松设计您自己的 TenvioX 模板。"
 
 #~ msgid "Email & Marketing"
 #~ msgstr "电子邮件与市场营销"
@@ -21333,7 +21333,7 @@ msgstr ""
 #~ msgstr "图像, 媒体, 插图"
 
 #~ msgid "instance of Odoo, the"
-#~ msgstr "Odoo实例，"
+#~ msgstr "TenvioX实例，"
 
 #~ msgid "masonry, grid"
 #~ msgstr "砖石, 网格"

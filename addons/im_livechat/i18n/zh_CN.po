@@ -982,7 +982,7 @@ msgstr "其他网站"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "FOR WEBSITES BUILT WITH ODOO"
-msgstr "使用 Odoo 制作的网站"
+msgstr "使用 TenvioX 制作的网站"
 
 #. module: im_livechat
 #: model:chatbot.script.answer,name:im_livechat.chatbot_script_troubleshooting_answer_firefox_demo
@@ -2001,7 +2001,7 @@ msgstr "发送错误的消息的数量"
 #: model:chatbot.script,title:im_livechat.chatbot_script_welcome_bot_demo
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: im_livechat
 #: model:ir.model.constraint,message:im_livechat.constraint_im_livechat_channel_member_history_channel_id_guest_id_unique
@@ -3418,7 +3418,7 @@ msgstr ""
 #~ msgid ""
 #~ "Operators that do not show any activity In Odoo for more than 30 minutes "
 #~ "will be considered as disconnected."
-#~ msgstr "在 Odoo 中，超过 30 分钟未进行任何活动的操作人员将被断开连接。"
+#~ msgstr "在 TenvioX 中，超过 30 分钟未进行任何活动的操作人员将被断开连接。"
 
 #~ msgid "Please call me on: "
 #~ msgstr "请给我打电话："

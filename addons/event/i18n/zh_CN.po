@@ -195,7 +195,7 @@ msgstr "<b>商务间</b> - 讨论实施方法，最佳销售做法等。"
 msgid ""
 "<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for "
 "new developers."
-msgstr "<b>技术间</b> - 一间面向高级Odoo开发人员，一间面向新开发人员。"
+msgstr "<b>技术间</b> - 一间面向高级TenvioX开发人员，一间面向新开发人员。"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -2827,7 +2827,7 @@ msgstr "以活动时区表示。"
 msgid ""
 "Finished events. Odoo will automatically move them to this stage once their "
 "end date has passed."
-msgstr "活动结束。结束日期过后，Odoo 会自动将其移至此阶段。"
+msgstr "活动结束。结束日期过后，TenvioX 会自动将其移至此阶段。"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__fold
@@ -3772,7 +3772,7 @@ msgstr "目标"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_full_page_ticket_layout
 msgid "Odoo Community Days"
-msgstr "Odoo 社区日"
+msgstr "TenvioX 社区日"
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
@@ -5161,7 +5161,7 @@ msgstr "例如：\"促进\""
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "e.g. \"https://www.odoo.com\""
-msgstr "例：https://www.odoo.com"
+msgstr "例：https://www.TenvioX.com"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_form_quick_create
@@ -5601,7 +5601,7 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 #~ " 看板视图中的默认标签。"
 
 #~ msgid "events@odoo.com"
-#~ msgstr "events@odoo.com"
+#~ msgstr "events@TenvioX.com"
 
 #~ msgid "events@penwood.example.com"
 #~ msgstr "events@penwood.example.com"

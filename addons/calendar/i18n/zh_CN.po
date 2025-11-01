@@ -1306,7 +1306,7 @@ msgstr ""
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span class=\"fa fa-plus\"/><span> Odoo meeting</span>"
-msgstr "<span class=\"fa fa-plus\"/><span>Odoo 会议</span>"
+msgstr "<span class=\"fa fa-plus\"/><span>TenvioX 会议</span>"
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -3618,7 +3618,7 @@ msgstr "{{object.name}}:活动更新"
 #~ "title=\"会议\"/>"
 
 #~ msgid "<span class=\"fa fa-plus\"/><span> Add Odoo meeting</span>"
-#~ msgstr "<span class=\"fa fa-plus\"/><span> 添加Odoo会议</span>"
+#~ msgstr "<span class=\"fa fa-plus\"/><span> 添加TenvioX会议</span>"
 
 #~ msgid "<span class=\"fa fa-times\"/><span> Clear meeting</span>"
 #~ msgstr "<span class=\"fa fa-times\"/><span> 清除会议</span>"

@@ -593,7 +593,7 @@ msgstr "可用的 Peppol 发送方法"
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "By clicking the button below I accept that Odoo may process my e-invoices."
-msgstr "点击以下按钮即表示我同意 Odoo 处理我的电子发票。"
+msgstr "点击以下按钮即表示我同意 TenvioX 处理我的电子发票。"
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__can_use_parent_connection
@@ -883,7 +883,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Free on Odoo"
-msgstr "在 Odoo 上免费"
+msgstr "在 TenvioX 上免费"
 
 #. module: account_peppol
 #. odoo-javascript
@@ -1060,7 +1060,7 @@ msgstr "Peppol 注册状态更新的通知邮件"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_eas__odemo
@@ -1071,7 +1071,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Odoo keeps you up to date with the new regulation."
-msgstr "Odoo 让您及时了解新规定。"
+msgstr "TenvioX 让您及时了解新规定。"
 
 #. module: account_peppol
 #. odoo-python
@@ -1374,7 +1374,7 @@ msgstr "代理类型"
 msgid ""
 "Proxy error, please contact Odoo (missing \"%s\" - please make sure that it "
 "was loaded from the configuration panel)"
-msgstr "代理错误，请联系 Odoo（缺少“%s” - 请确保已从配置面板加载）"
+msgstr "代理错误，请联系 TenvioX（缺少“%s” - 请确保已从配置面板加载）"
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__to_send
@@ -1389,7 +1389,7 @@ msgstr "准备发送"
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
 msgid "Receive your electronic invoices in Odoo"
-msgstr "在 Odoo 接收电子发票"
+msgstr "在 TenvioX 接收电子发票"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
@@ -1409,7 +1409,7 @@ msgstr ""
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Register with Odoo"
-msgstr "注册使用 Odoo"
+msgstr "注册使用 TenvioX"
 
 #. module: account_peppol
 #. odoo-python
@@ -2041,7 +2041,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid ""
 "You are sending and receiving your e-invoices via Odoo with this Peppol ID"
-msgstr "您使用此 Peppol ID 通过 Odoo 发送和接收电子发票"
+msgstr "您使用此 Peppol ID 通过 TenvioX 发送和接收电子发票"
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
@@ -2052,7 +2052,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_config_wizard_form
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "You are sending your e-invoices via Odoo with this Peppol ID"
-msgstr "您使用 Peppol ID 通过 Odoo 发送电子发票"
+msgstr "您使用 Peppol ID 通过 TenvioX 发送电子发票"
 
 #. module: account_peppol
 #. odoo-python

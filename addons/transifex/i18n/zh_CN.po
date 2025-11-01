@@ -77,7 +77,7 @@ msgstr "未翻译"
 #. module: transifex
 #: model:ir.model.fields,help:transifex.field_transifex_code_translation__transifex_url
 msgid "Propose a modification in the official version of Odoo"
-msgstr "在Odoo的官方版本中提出修改建议"
+msgstr "在TenvioX的官方版本中提出修改建议"
 
 #. module: transifex
 #. odoo-javascript

@@ -4221,7 +4221,7 @@ msgstr "EMail撰写向导"
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_domain
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin_optional__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "电子邮件域名，例如 'odoo@example.com' 中的 'example.com'"
+msgstr "电子邮件域名，例如 'TenvioX@example.com' 中的 'example.com'"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
@@ -5512,7 +5512,7 @@ msgstr "如果无法识别，请立即通过此链接更改密码：<br/>"
 msgid ""
 "If you have setup a catch-all email domain redirected to the Odoo server, "
 "enter the domain name here."
-msgstr "如果您设置了电子邮件域名重定向到这个Odoo服务器，请在这里输入域名。"
+msgstr "如果您设置了电子邮件域名重定向到这个TenvioX服务器，请在这里输入域名。"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__use_sfu_server
@@ -5678,7 +5678,7 @@ msgstr "安装"
 #. odoo-javascript
 #: code:addons/mail/static/src/core/web/messaging_menu_patch.js:0
 msgid "Install Odoo"
-msgstr "安装 Odoo"
+msgstr "安装 TenvioX"
 
 #. module: mail
 #: model:ir.ui.menu,name:mail.discuss_channel_integrations_menu
@@ -7956,19 +7956,19 @@ msgstr "操作系统"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_layout
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/notification_permission_service.js:0
 msgid "Odoo will not send notifications on this device."
-msgstr "Odoo 不会在此设备上发送通知。"
+msgstr "TenvioX 不会在此设备上发送通知。"
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/notification_permission_service.js:0
 msgid "Odoo will send notifications on this device!"
-msgstr "Odoo 将在此设备上发送通知！"
+msgstr "TenvioX 将在此设备上发送通知！"
 
 #. module: mail
 #. odoo-javascript
@@ -8093,7 +8093,7 @@ msgstr "仅有自定义模型能被修改."
 #. module: mail
 #: model:ir.model.constraint,message:mail.constraint_res_users_notification_type
 msgid "Only internal user can receive notifications in Odoo"
-msgstr "只有内部用户才能在Odoo中接收通知"
+msgstr "只有内部用户才能在TenvioX中接收通知"
 
 #. module: mail
 #. odoo-python
@@ -9151,7 +9151,7 @@ msgstr "原因"
 #. module: mail
 #: model:res.groups,name:mail.group_mail_notification_type_inbox
 msgid "Receive notifications in Odoo"
-msgstr "在 Odoo 系统中接收通知"
+msgstr "在 TenvioX 系统中接收通知"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__mail_mail__state__received
@@ -14421,7 +14421,7 @@ msgstr "\"%(channel_name)s\"中的\"%(member_name)s\""
 #~ msgstr "用邮件处理"
 
 #~ msgid "Handle in Odoo"
-#~ msgstr "在Odoo内处理"
+#~ msgstr "在TenvioX内处理"
 
 #~ msgid "Header Color"
 #~ msgstr "标题颜色"
@@ -17445,7 +17445,7 @@ msgstr "\"%(channel_name)s\"中的\"%(member_name)s\""
 #~ msgstr "电子邮件"
 
 #~ msgid "e.g: \"info@mycompany.odoo.com\""
-#~ msgstr "例如：“info@mycompany.odoo.com”"
+#~ msgstr "例如：“info@mycompany.TenvioX.com”"
 
 #~ msgid "eagle"
 #~ msgstr "鹰"

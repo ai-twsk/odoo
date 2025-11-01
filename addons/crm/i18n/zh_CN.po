@@ -1049,7 +1049,7 @@ msgstr "归类并分析线索/商机的类别，例如：培训，服务"
 msgid ""
 "Click on the breadcrumb to go back to your Pipeline. Odoo will save all "
 "modifications as you navigate."
-msgstr "点击面包屑导航，返回您的商机。Odoo 会在您切换浏览画面时保存所有修改。"
+msgstr "点击面包屑导航，返回您的商机。TenvioX 会在您切换浏览画面时保存所有修改。"
 
 #. module: crm
 #. odoo-javascript
@@ -1135,7 +1135,7 @@ msgstr "完成日期"
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Computed by Odoo AI using your data."
-msgstr "由 Odoo AI 使用您的数据计算。"
+msgstr "由 TenvioX AI 使用您的数据计算。"
 
 #. module: crm
 #: model:ir.model,name:crm.model_res_config_settings
@@ -1666,7 +1666,7 @@ msgstr "电子邮件抄送："
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "电子邮件域名，例如 'odoo@example.com' 中的 'example.com'"
+msgstr "电子邮件域名，例如 'TenvioX@example.com' 中的 'example.com'"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -4009,7 +4009,7 @@ msgstr "提示：将收到的电子邮件转化为商机"
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
 msgid "Tip: Did you know Odoo has built-in lead mining?"
-msgstr "提示：您知道 Odoo 有内置线索挖掘功能吗？"
+msgstr "提示：您知道 TenvioX 有内置线索挖掘功能吗？"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4
@@ -4472,7 +4472,7 @@ msgstr "例如：太昂贵"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "e.g. https://www.odoo.com"
-msgstr "例如：https://www.odoo.com"
+msgstr "例如：https://www.TenvioX.com"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm

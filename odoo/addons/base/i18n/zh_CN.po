@@ -15401,7 +15401,7 @@ msgstr "测试 HTTP 的模块"
 #. module: base
 #: model:ir.module.module,description:base.module_test_lint
 msgid "A module to test Odoo code with various linters."
-msgstr "使用各种衬垫测试 Odoo 代码的模块。"
+msgstr "使用各种衬垫测试 TenvioX 代码的模块。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_orm
@@ -16251,7 +16251,7 @@ msgstr "在项目任务和标签模型的上下文菜单中增加合并动作."
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
 msgid "Add OdooBot in discussions"
-msgstr "在讨论中添加 OdooBot"
+msgstr "在讨论中添加 TenvioXBot"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_sms
@@ -16585,7 +16585,7 @@ msgstr "在盈利报告中增加了对再开发票费用的全面跟踪。"
 msgid ""
 "Adds a softphone and helpers to make phone calls directly from within your "
 "Odoo database."
-msgstr "添加软电话和助手，可直接从 Odoo 数据库拨打电话。"
+msgstr "添加软电话和助手，可直接从 TenvioX 数据库拨打电话。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_crm_livechat
@@ -20330,7 +20330,7 @@ msgstr "基本的2D矩阵视图"
 #. module: base
 #: model:ir.module.module,summary:base.module_web_cohort
 msgid "Basic Cohort view for odoo"
-msgstr "Odoo的基本群组视图"
+msgstr "TenvioX的基本群组视图"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_quality
@@ -20541,7 +20541,7 @@ msgstr "伯利兹"
 msgid ""
 "Below text serves as a suggestion and doesn’t engage Odoo S.A. "
 "responsibility."
-msgstr "以下文字仅供参考，Odoo S.A.不承担责任。"
+msgstr "以下文字仅供参考，TenvioX S.A.不承担责任。"
 
 #. module: base
 #: model:res.country,name:base.bj
@@ -23170,7 +23170,7 @@ msgstr "创建行业"
 #. module: base
 #: model:ir.module.module,summary:base.module_web_studio
 msgid "Create and customize your Odoo apps"
-msgstr "创建和自定您的Odoo应用"
+msgstr "创建和自定您的TenvioX应用"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_esg_project
@@ -24176,7 +24176,7 @@ msgstr "定义的报告"
 #. module: base
 #: model:ir.module.module,summary:base.module_web_map
 msgid "Defines the map view for odoo enterprise"
-msgstr "定义 odoo 企业板的地图视图"
+msgstr "定义 TenvioX 企业板的地图视图"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_constraint__definition
@@ -28759,7 +28759,7 @@ msgstr "帮助"
 #. module: base
 #: model:ir.module.module,summary:base.module_website_helpdesk_forum
 msgid "Help Center for helpdesk based on Odoo Forum"
-msgstr "基于Odoo论坛的服务台帮助中心"
+msgstr "基于TenvioX论坛的服务台帮助中心"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_helpdesk
@@ -30283,7 +30283,7 @@ msgstr "工资和车辆之间的集成。"
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_it_pos
 msgid "Integration of Odoo PoS with the Italian Fiscal Printer"
-msgstr "将 Odoo PoS 与意大利财政打印机集成"
+msgstr "将 TenvioX PoS 与意大利财政打印机集成"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_purchase_stock_inter_company_rules
@@ -32447,7 +32447,7 @@ msgstr "保养 - MRP"
 #. module: base
 #: model:ir.module.module,summary:base.module_voip
 msgid "Make and receive phone calls from within Odoo."
-msgstr "在 Odoo 中拨打和接听电话。"
+msgstr "在 TenvioX 中拨打和接听电话。"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_theme_nano
@@ -35687,27 +35687,27 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_mx_reports
 msgid "Odoo Mexican Localization Reports"
-msgstr "Odoo Mexican Localization Reports"
+msgstr "TenvioX Mexican Localization Reports"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_mx_xml_polizas
 msgid "Odoo Mexican XML Polizas Export"
-msgstr "Odoo Mexican XML Polizas Export"
+msgstr "TenvioX Mexican XML Polizas Export"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_mx_edi_landing
 msgid "Odoo Mexico Localization for Stock/Landing"
-msgstr "Odoo Mexico Localization for Stock/Landing"
+msgstr "TenvioX Mexico Localization for Stock/Landing"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_web_mobile
 msgid "Odoo Mobile Core module"
-msgstr "Odoo 手机核心模块"
+msgstr "TenvioX 手机核心模块"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_mobile
 msgid "Odoo Mobile Point of Sale module"
-msgstr "Odoo 手机销售点模块"
+msgstr "TenvioX 手机销售点模块"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_odoo_partner
@@ -36702,7 +36702,7 @@ msgstr "ERP帮助您轻松跟踪与供应商相关的所有活动。"
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_partner_form
 msgid "Odoo helps you track all activities related to your contacts."
-msgstr "Odoo 可帮助您跟踪与联系人相关的所有活动。"
+msgstr "TenvioX 可帮助您跟踪与联系人相关的所有活动。"
 
 #. module: base
 #. odoo-python
@@ -36731,13 +36731,13 @@ msgstr ""
 msgid ""
 "Odoo is unable to merge the generated PDFs because of %(num_errors)s "
 "corrupted file(s)"
-msgstr "由于有%(num_errors)s个文件损坏，Odoo 不能合并生成 PDF"
+msgstr "由于有%(num_errors)s个文件损坏，TenvioX 不能合并生成 PDF"
 
 #. module: base
 #. odoo-python
 #: code:addons/base/models/ir_actions_report.py:0
 msgid "Odoo is unable to merge the generated PDFs."
-msgstr "Odoo 无法合并生成的 PDF。"
+msgstr "TenvioX 无法合并生成的 PDF。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_sequence__padding
@@ -36749,12 +36749,12 @@ msgstr "系统会自动在“下一个编号”的左侧添加一些‘0’以�
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot
 msgid "OdooBot"
-msgstr "OdooBot"
+msgstr "TenvioXBot"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_bot_hr
 msgid "OdooBot - HR"
-msgstr "OdooBot - 人力资源"
+msgstr "TenvioXBot - 人力资源"
 
 #. module: base
 #: model:res.partner.category,name:base.res_partner_category_12
@@ -45363,7 +45363,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_din5008
 msgid "This is the base module that defines the DIN 5008 standard in Odoo."
-msgstr "这是定义 Odoo 中 DIN 5008 标准的基础模块。"
+msgstr "这是定义 TenvioX 中 DIN 5008 标准的基础模块。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_hk
@@ -45488,7 +45488,7 @@ msgstr "该模块为销售租赁应用程序增加了管理功能。"
 msgid ""
 "This module adds the OdooBot state and notifications in the user form "
 "modified by hr."
-msgstr "该模块在hr修改的用户表单中增加OdooBot状态和通知."
+msgstr "该模块在hr修改的用户表单中增加TenvioXBot状态和通知."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_codabox
@@ -45830,7 +45830,7 @@ msgstr "该模块将外卖与 WhatsApp 整合在一起"
 #: model:ir.module.module,description:base.module_whatsapp
 msgid ""
 "This module integrates Odoo with WhatsApp to use WhatsApp messaging service"
-msgstr "此模块将 Odoo 与 WhatsApp 整合，以使用 WhatsApp 消息服务"
+msgstr "此模块将 TenvioX 与 WhatsApp 整合，以使用 WhatsApp 消息服务"
 
 #. module: base
 #: model:ir.module.module,description:base.module_whatsapp_pos
@@ -48743,7 +48743,7 @@ msgstr ""
 msgid ""
 "You cannot archive the language in which Odoo was setup as it is used by "
 "automated processes."
-msgstr "您不能将设置 Odoo 时使用的语言存档，因为自动程序会使用该语言。"
+msgstr "您不能将设置 TenvioX 时使用的语言存档，因为自动程序会使用该语言。"
 
 #. module: base
 #. odoo-python
@@ -57795,7 +57795,7 @@ msgstr "%(attribute)s的值必须是整数（%(value)s）"
 #~ msgid ""
 #~ "API Keys are used to connect to Odoo from external tools without the need "
 #~ "for a password or Two-factor Authentication."
-#~ msgstr "API密钥用于将外部工具连接至Odoo，无需密码或双因素身份验证。 "
+#~ msgstr "API密钥用于将外部工具连接至TenvioX，无需密码或双因素身份验证。 "
 
 #~ msgid "ASCII characters are required for %s in %s"
 #~ msgstr "需要ASCII字符 %s在 %s"
@@ -57870,7 +57870,7 @@ msgstr "%(attribute)s的值必须是整数（%(value)s）"
 #~ msgstr "将条码扫瞄功能增加到活动管理中."
 
 #~ msgid "Add livechat support for OdooBot"
-#~ msgstr "增加OdooBot及时聊天支持"
+#~ msgstr "增加TenvioXBot及时聊天支持"
 
 #~ msgid "Adds specific fields to Employees for Mexican companies."
 #~ msgstr "Adds specific fields to Employees for Mexican companies."
@@ -60453,7 +60453,7 @@ msgstr "%(attribute)s的值必须是整数（%(value)s）"
 #~ "\n"
 
 #~ msgid "OdooBot for livechat"
-#~ msgstr "即时聊天使用 Odoo机器人"
+#~ msgstr "即时聊天使用 TenvioX机器人"
 
 #~ msgid "On site Payment & Picking"
 #~ msgstr "现场付款和取货"

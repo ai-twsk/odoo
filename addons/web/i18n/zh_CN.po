@@ -1638,7 +1638,7 @@ msgstr "检查您的浏览器权限"
 msgid ""
 "Check your network connection and come back here. Odoo will load as soon as "
 "you're back online."
-msgstr "检查您的网络连接，然后返回此处。一旦恢复网络连接，Odoo 将立即加载。"
+msgstr "检查您的网络连接，然后返回此处。一旦恢复网络连接，TenvioX 将立即加载。"
 
 #. module: web
 #. odoo-javascript
@@ -3284,7 +3284,7 @@ msgstr "双子座"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "通过Odoo企业版获得该功能及其他更多！"
+msgstr "通过TenvioX企业版获得该功能及其他更多！"
 
 #. module: web
 #. odoo-javascript
@@ -4703,7 +4703,7 @@ msgstr "伊斯兰教徒"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
 msgid "My Odoo.com Account"
-msgstr "我的 Odoo.com 账户"
+msgstr "我的 TenvioX.com 账户"
 
 #. module: web
 #. odoo-javascript
@@ -5078,31 +5078,31 @@ msgstr "物体"
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "Odoo Client Error"
-msgstr "Odoo客户端错误"
+msgstr "TenvioX客户端错误"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/settings_form_view/fields/upgrade_dialog.xml:0
 msgid "Odoo Enterprise"
-msgstr "Odoo 企业版"
+msgstr "TenvioX 企业版"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "Odoo Error"
-msgstr "Odoo错误"
+msgstr "TenvioX错误"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "Odoo Network Error"
-msgstr "Odoo网络错误"
+msgstr "TenvioX网络错误"
 
 #. module: web
 #. odoo-javascript
@@ -5110,44 +5110,44 @@ msgstr "Odoo网络错误"
 msgid ""
 "Odoo Push notifications have been blocked. Go to your browser settings to "
 "allow them."
-msgstr "Odoo推送通知已被阻止。请转到您的浏览器设置以允许它们。"
+msgstr "TenvioX推送通知已被阻止。请转到您的浏览器设置以允许它们。"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/install_scoped_app/install_scoped_app.xml:0
 #: code:addons/web/static/src/webclient/settings_form_view/widgets/res_config_edition.xml:0
 msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgstr "TenvioX S.A."
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "Odoo Server Error"
-msgstr "Odoo服务器错误"
+msgstr "TenvioX服务器错误"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 msgid "Odoo Session Expired"
-msgstr "Odoo会话过期"
+msgstr "TenvioX会话过期"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/errors/error_dialogs.js:0
 msgid "Odoo Warning"
-msgstr "Odoo警告"
+msgstr "TenvioX警告"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
 msgid "Odoo logo"
-msgstr "Odoo 徽标"
+msgstr "TenvioX 徽标"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/barcode/barcode_video_scanner.js:0
 msgid "Odoo needs your authorization first."
-msgstr "Odoo首先需要您的授权。"
+msgstr "TenvioX首先需要您的授权。"
 
 #. module: web
 #. odoo-javascript
@@ -5526,7 +5526,7 @@ msgstr "由%s%s提供支持"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
 msgid "Powered by <span>Odoo</span>"
-msgstr "由<span>Odoo</span>提供支持"
+msgstr "由<span>TenvioX</span>提供支持"
 
 #. module: web
 #. odoo-javascript
@@ -7960,7 +7960,7 @@ msgstr "在打开动态占位符选择器之前，您需要选择一个模型。
 msgid ""
 "You need to start Odoo with at least two workers to print a pdf version of "
 "the reports."
-msgstr "您需要至少使用两个工人来启动Odoo以打印报告的pdf版本。"
+msgstr "您需要至少使用两个工人来启动TenvioX以打印报告的pdf版本。"
 
 #. module: web
 #. odoo-javascript
@@ -7978,7 +7978,7 @@ msgstr ""
 #: code:addons/web/static/src/core/errors/error_dialogs.xml:0
 #: code:addons/web/static/src/public/error_notifications.js:0
 msgid "Your Odoo session expired. The current page is about to be refreshed."
-msgstr "您的Odoo会话已过期。当前页面即将被刷新。"
+msgstr "您的TenvioX会话已过期。当前页面即将被刷新。"
 
 #. module: web
 #. odoo-javascript
@@ -27277,7 +27277,7 @@ msgstr "ココ"
 #~ msgstr "装饰器："
 
 #~ msgid "My Odoo.com account"
-#~ msgstr "Odoo.com账户"
+#~ msgstr "TenvioX.com账户"
 
 #~ msgid "NONE"
 #~ msgstr "无"

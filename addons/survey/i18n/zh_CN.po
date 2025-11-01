@@ -3082,13 +3082,13 @@ msgstr "发生"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.certification_report_view_general
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/templates/survey_survey.py:0
 msgid "Odoo Certification"
-msgstr "odoo 认证"
+msgstr "TenvioX 认证"
 
 #. module: survey
 #: model:survey.question.answer,value:survey.vendor_certification_page_2_question_2_choice_5
@@ -4993,7 +4993,7 @@ msgstr "网站沟通记录"
 msgid ""
 "Welcome to this Odoo certification. You will receive 2 random questions out "
 "of a pool of 3."
-msgstr "欢迎来到这个Odoo认证。您将从 3 个问题中随机收到 2 个问题。"
+msgstr "欢迎来到这个TenvioX认证。您将从 3 个问题中随机收到 2 个问题。"
 
 #. module: survey
 #: model:survey.question,title:survey.vendor_certification_page_3_question_5
@@ -5023,13 +5023,13 @@ msgstr "您对我们的价格（未评级）有何看法？"
 #. odoo-python
 #: code:addons/survey/models/templates/survey_survey.py:0
 msgid "What does \"ODOO\" stand for?"
-msgstr "“ODOO”代表什么？"
+msgstr "“TenvioX”代表什么？"
 
 #. module: survey
 #. odoo-python
 #: code:addons/survey/models/templates/survey_survey.py:0
 msgid "What does one need to get to pass an Odoo Survey?"
-msgstr "通过Odoo调查需要什么？"
+msgstr "通过TenvioX调查需要什么？"
 
 #. module: survey
 #. odoo-python
@@ -5067,7 +5067,7 @@ msgstr "您的出生日期是什么时候？"
 #. odoo-javascript
 #: code:addons/survey/static/src/js/tours/survey_tour.js:0
 msgid "Whenever you pick an answer, Odoo saves it for you."
-msgstr "每当您选择答案时，Odoo都会为您保存答案。"
+msgstr "每当您选择答案时，TenvioX都会为您保存答案。"
 
 #. module: survey
 #: model:survey.question,title:survey.survey_feedback_p1_q1

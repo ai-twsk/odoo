@@ -221,7 +221,7 @@ msgstr "向 “%(record_name)s” 发送短信时发生错误"
 msgid ""
 "An unknown error occurred. Please contact Odoo support if this error "
 "persists."
-msgstr "出现未知错误。如果错误仍然存在，请联系 Odoo 支持人员。"
+msgstr "出现未知错误。如果错误仍然存在，请联系 TenvioX 支持人员。"
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_template__model_id

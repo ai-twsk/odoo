@@ -4445,14 +4445,14 @@ msgstr "问题数量"
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: website_slides
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_4_0
 msgid "Odoo • Image and Text"
-msgstr "Odoo • 图像和文字"
+msgstr "TenvioX • 图像和文字"
 
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_officer

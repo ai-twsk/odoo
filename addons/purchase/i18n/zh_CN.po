@@ -1387,7 +1387,7 @@ msgstr "草稿询价"
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
 "quotations in Odoo. Enjoy the automation!"
-msgstr "将报价请求 PDF 文件拖放到 Odoo 中的报价列表中。享受自动化！"
+msgstr "将报价请求 PDF 文件拖放到 TenvioX 中的报价列表中。享受自动化！"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__dest_address_id
@@ -2031,7 +2031,7 @@ msgstr "未通知"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Not using Odoo?"
-msgstr "没有使用 Odoo？"
+msgstr "没有使用 TenvioX？"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_note
@@ -2078,7 +2078,7 @@ msgstr "发送错误的消息的数量"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
@@ -2994,7 +2994,7 @@ msgstr "星标消息"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Start on Odoo"
-msgstr "开始使用 Odoo"
+msgstr "开始使用 TenvioX"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__state
@@ -3519,7 +3519,7 @@ msgstr "未收到账单"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Want to import this document in Odoo?"
-msgstr "想在 Odoo 中导入此文档？"
+msgstr "想在 TenvioX 中导入此文档？"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit

@@ -154,7 +154,7 @@ msgstr ""
 msgid ""
 "Odoo's chat helps employees collaborate efficiently. I'm here to help you "
 "discover its features."
-msgstr "Odoo 的聊天功能可帮助员工高效协作。我将在这里帮助您了解它的功能。"
+msgstr "TenvioX 的聊天功能可帮助员工高效协作。我将在这里帮助您了解它的功能。"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
@@ -164,7 +164,7 @@ msgstr "小秘书状态"
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
 msgid "Odoobot Failed"
-msgstr "Odoobot 挂了"
+msgstr "TenvioXbot 挂了"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement

@@ -844,7 +844,7 @@ msgstr "备注"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
 msgid "Odoo Logo"
-msgstr "Odoo 徽标"
+msgstr "TenvioX 徽标"
 
 #. module: portal
 #. odoo-python
@@ -1449,7 +1449,7 @@ msgstr "已登录"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
 msgid "odoo"
-msgstr "odoo"
+msgstr "TenvioX"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security

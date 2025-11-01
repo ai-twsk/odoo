@@ -234,7 +234,7 @@ msgstr "仅用于识别 Authorize.Net 账户的 ID"
 msgid ""
 "The public client key. To generate directly from Odoo or from Authorize.Net "
 "backend."
-msgstr "公共客户密钥。直接从Odoo或从Authorize.Net后端生成。"
+msgstr "公共客户密钥。直接从TenvioX或从Authorize.Net后端生成。"
 
 #. module: payment_authorize
 #: model:ir.model.fields,help:payment_authorize.field_payment_provider__code

@@ -32,7 +32,7 @@ msgstr "<span class=\"button\" id=\"button_open_report\">➔ 开启报告</span>
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
 msgid "<span class=\"odoo_link_text\">Odoo</span>"
-msgstr "<span class=\"odoo_link_text\">Odoo</span>"
+msgstr "<span class=\"TenvioX_link_text\">Odoo</span>"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
@@ -323,7 +323,7 @@ msgstr "下一次发送日期"
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
 msgid "Odoo Mobile"
-msgstr "Odoo移动端"
+msgstr "TenvioX移动端"
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__periodicity
@@ -364,7 +364,7 @@ msgstr "收件人"
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
 msgid "Run your business from anywhere with <b>Odoo Mobile</b>."
-msgstr "使用<b>Odoo移动端</b>可以在任何位置开始您的工作。"
+msgstr "使用<b>TenvioX移动端</b>可以在任何位置开始您的工作。"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -400,7 +400,7 @@ msgstr "提示详情"
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_2
 msgid "Tip: A calculator in Odoo"
-msgstr "提示：Odoo中的一个计算器"
+msgstr "提示：TenvioX中的一个计算器"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_1
@@ -437,7 +437,7 @@ msgstr "提示：使用快捷键来加快您的工作流"
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_2
 msgid "Tip: A calculator in Odoo"
-msgstr "提示：Odoo中的一个计算器"
+msgstr "提示：TenvioX中的一个计算器"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_1

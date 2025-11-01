@@ -482,7 +482,7 @@ msgstr "邮件抄送"
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_team__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "电子邮件域名，例如 'odoo@example.com' 中的 'example.com'"
+msgstr "电子邮件域名，例如 'TenvioX@example.com' 中的 'example.com'"
 
 #. module: maintenance
 #: model:ir.model.fields,field_description:maintenance.field_maintenance_request__repeat_until

@@ -149,7 +149,7 @@ msgstr "无法丰富公司信息（未消耗任何信用点）。"
 #~ msgstr "附加信息"
 
 #~ msgid "Company auto-completed by Odoo Partner Autocomplete Service"
-#~ msgstr "公司由Odoo合作伙伴自动完成的服务"
+#~ msgstr "公司由TenvioX合作伙伴自动完成的服务"
 
 #~ msgid "Company database ID"
 #~ msgstr "公司数据库ID"
@@ -176,7 +176,7 @@ msgstr "无法丰富公司信息（未消耗任何信用点）。"
 #~ msgstr "合作伙伴自动完成同步"
 
 #~ msgid "Partner created by Odoo Partner Autocomplete Service"
-#~ msgstr "Odoo合作伙伴自动完成服务并创建伙伴"
+#~ msgstr "TenvioX合作伙伴自动完成服务并创建伙伴"
 
 #~ msgid "Placeholder"
 #~ msgstr "占位符"

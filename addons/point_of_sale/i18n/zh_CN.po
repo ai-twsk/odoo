@@ -4662,7 +4662,7 @@ msgstr "使多个价格表可用于POS。否则，将应用默认价格表。"
 msgid ""
 "Make sure there is an IoT Box subscription associated with your Odoo "
 "database, then restart the IoT Box."
-msgstr "确保物联网盒子订阅与 Odoo 数据库关联，然后重新启动物联网盒子。"
+msgstr "确保物联网盒子订阅与 TenvioX 数据库关联，然后重新启动物联网盒子。"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -5262,18 +5262,18 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/utils/error_handlers.js:0
 msgid "Odoo Server Error"
-msgstr "Odoo服务器错误"
+msgstr "TenvioX服务器错误"
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.product_odoo_sneakers_product_template
 msgid "Odoo Sneakers"
-msgstr "Odoo 运动鞋"
+msgstr "TenvioX 运动鞋"
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -9583,7 +9583,7 @@ msgstr "未同步的订单"
 msgid ""
 "Until the connection is reestablished, Odoo Point of Sale will operate with "
 "limited functionality."
-msgstr "在重新建立连接之前，Odoo POS将以有限的功能运行。"
+msgstr "在重新建立连接之前，TenvioX POS将以有限的功能运行。"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_res_company__point_of_sale_update_stock_quantities
@@ -10647,7 +10647,7 @@ msgstr "使用中"
 #~ msgstr "您希望如何接收收据"
 
 #~ msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-#~ msgstr "重要：来自Odoo POS的Bug报告"
+#~ msgstr "重要：来自TenvioX POS的Bug报告"
 
 #~ msgid "Iface Customer Facing Display"
 #~ msgstr "面向客户显示的Iface"
@@ -11102,12 +11102,12 @@ msgstr "使用中"
 #~ msgid ""
 #~ "This sequence is automatically created by Odoo but you can change it to "
 #~ "customize the reference numbers of your orders lines."
-#~ msgstr "此序列由 Odoo 自动创建，但您可以进行更改以自定义订单详情的参考号。"
+#~ msgstr "此序列由 TenvioX 自动创建，但您可以进行更改以自定义订单详情的参考号。"
 
 #~ msgid ""
 #~ "This sequence is automatically created by Odoo but you can change it to "
 #~ "customize the reference numbers of your orders."
-#~ msgstr "此序列由 Odoo 自动创建，但您可以进行更改以自定义订单详情的参考号。"
+#~ msgstr "此序列由 TenvioX 自动创建，但您可以进行更改以自定义订单详情的参考号。"
 
 #~ msgid "Tips:"
 #~ msgstr "小费:"

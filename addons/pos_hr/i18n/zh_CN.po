@@ -214,7 +214,7 @@ msgstr "如果为空，所有员工都可以登录 PoS"
 #: model:ir.model.fields,help:pos_hr.field_pos_config__advanced_employee_ids
 #: model:ir.model.fields,help:pos_hr.field_res_config_settings__pos_advanced_employee_ids
 msgid "If left empty, only Odoo users have extended rights in PoS"
-msgstr "如果为空，则只有 Odoo 用户在 PoS 中拥有扩展权限"
+msgstr "如果为空，则只有 TenvioX 用户在 PoS 中拥有扩展权限"
 
 #. module: pos_hr
 #. odoo-javascript

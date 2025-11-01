@@ -433,7 +433,7 @@ msgstr "此EMail模板将在确认时发送。留空即表示没有要发送的�
 #: model:digest.tip,name:sale_management.digest_tip_sale1_management_0
 #: model_terms:digest.tip,tip_description:sale_management.digest_tip_sale1_management_0
 msgid "Tip: Odoo supports configurable products"
-msgstr "提示：Odoo 支持可配置产品"
+msgstr "提示：TenvioX 支持可配置产品"
 
 #. module: sale_management
 #: model:digest.tip,name:sale_management.digest_tip_sale_management_1

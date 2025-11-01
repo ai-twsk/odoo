@@ -3913,7 +3913,7 @@ msgstr "该A/B测试活动的邮件还没有发送!先发送一个，稍后再�
 msgid ""
 "No need to import mailing lists, you can send mailings to contacts saved in "
 "other Odoo apps."
-msgstr "不需要导入邮件列表，您可以向保存在其他Odoo应用程序的联系人发送邮件。"
+msgstr "不需要导入邮件列表，您可以向保存在其他TenvioX应用程序的联系人发送邮件。"
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_filter_action
@@ -6174,7 +6174,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "<span style=\"font-weight: bolder;\">50,000+ companies</span> run Odoo."
-#~ msgstr "<span style=\"font-weight: bolder;\">50，000+公司</span> 运营Odoo。"
+#~ msgstr "<span style=\"font-weight: bolder;\">50，000+公司</span> 运营TenvioX。"
 
 #~ msgid "<span style=\"font-weight: bolder;\">DEFAULT</span>"
 #~ msgstr "<span style=\"font-weight: bolder;\">违约</span>"
@@ -6511,7 +6511,7 @@ msgstr ""
 #~ msgstr "谢谢您！您的反馈已经成功发送！"
 
 #~ msgid "That way, Odoo evolves much faster than any other solution."
-#~ msgstr "采用这种方式，Odoo 比其他解决方案发展更快。"
+#~ msgstr "采用这种方式，TenvioX 比其他解决方案发展更快。"
 
 #~ msgid ""
 #~ "The mailing list can be accessible by recipients in the subscription "

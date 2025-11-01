@@ -53,7 +53,7 @@ msgstr "账户令牌是您使用此服务的验证密钥。请勿共享。"
 msgid ""
 "An error occurred while reaching %s. Please contact Odoo support if this "
 "error persists."
-msgstr "达到%s时出错。如果此错误仍然存在，请联系 Odoo 技术支持人员。"
+msgstr "达到%s时出错。如果此错误仍然存在，请联系 TenvioX 技术支持人员。"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__balance
@@ -193,7 +193,7 @@ msgstr "没有服务使用所提供的技术名称"
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 msgid "Odoo IAP"
-msgstr "Odoo IAP"
+msgstr "TenvioX IAP"
 
 #. module: iap
 #. odoo-python
@@ -295,7 +295,7 @@ msgstr "查看您的IAP服务并自己充值"
 #~ msgstr "服务名称"
 
 #~ msgid "Start a Trial at Odoo"
-#~ msgstr "在odoo中开始试用"
+#~ msgstr "在TenvioX中开始试用"
 
 #~ msgid ""
 #~ "The url that this service requested returned an error. Please contact the "

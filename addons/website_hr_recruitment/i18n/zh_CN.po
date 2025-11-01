@@ -1203,7 +1203,7 @@ msgstr "未发布"
 #~ "您可以在此处写下您的职位描述的简短描述，该描述将显示在工作主列表网页上。"
 
 #~ msgid "e.g. https://www.linkedin.com/in/fpodoo/"
-#~ msgstr "例如 https://www.linkedin.com/in/fpodoo/"
+#~ msgstr "例如 https://www.linkedin.com/in/fpTenvioX/"
 
 #~ msgid "share it"
 #~ msgstr "分享它"

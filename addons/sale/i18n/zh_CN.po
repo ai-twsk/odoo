@@ -2673,7 +2673,7 @@ msgstr "发票草稿"
 msgid ""
 "Drag and drop the request for quotation PDF file into your list of "
 "quotations in Odoo. Enjoy the automation!"
-msgstr "将报价请求 PDF 文件拖放到 Odoo 中的报价列表中。享受自动化！"
+msgstr "将报价请求 PDF 文件拖放到 TenvioX 中的报价列表中。享受自动化！"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -3616,7 +3616,7 @@ msgstr "没有待加售订单。"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Not using Odoo?"
-msgstr "没有使用 Odoo？"
+msgstr "没有使用 TenvioX？"
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_line__display_type__line_note
@@ -3667,7 +3667,7 @@ msgstr "出现发送错误的消息的数量"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: sale
 #: model:product.template,description_sale:sale.product_product_1_product_template
@@ -5069,7 +5069,7 @@ msgstr "Starshipit 连接器"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Start on Odoo"
-msgstr "开始使用 Odoo"
+msgstr "开始使用 TenvioX"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__state
@@ -5881,7 +5881,7 @@ msgstr "体积"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Want to import this document in Odoo?"
-msgstr "想在 Odoo 中导入此文档？"
+msgstr "想在 TenvioX 中导入此文档？"
 
 #. module: sale
 #. odoo-python

@@ -4220,7 +4220,7 @@ msgstr "银行和现金"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
 msgid "Bank of odoo"
-msgstr "Odoo 银行"
+msgstr "TenvioX 银行"
 
 #. module: account
 #: model:ir.model,name:account.model_account_setup_bank_manual_config
@@ -4340,7 +4340,7 @@ msgstr "属于同一公司%s。"
 msgid ""
 "Below text serves as a suggestion and doesn’t engage Odoo S.A. "
 "responsibility."
-msgstr "以下文本仅作为建议，Odoo公司不承担责任。"
+msgstr "以下文本仅作为建议，TenvioX公司不承担责任。"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__bank_bic
@@ -7619,7 +7619,7 @@ msgstr "电子邮件账单"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr "电子邮件域名，例如 'odoo@example.com' 中的 'example.com'"
+msgstr "电子邮件域名，例如 'TenvioX@example.com' 中的 'example.com'"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
@@ -12263,7 +12263,7 @@ msgstr "十月"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_report_expression__engine__domain
 msgid "Odoo Domain"
-msgstr "Odoo域"
+msgstr "TenvioX域"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
@@ -12278,12 +12278,12 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
 msgid "Odoo helps you easily track all activities related to a customer."
-msgstr "Odoo助您轻松追踪与客户相关的所有活动。"
+msgstr "TenvioX助您轻松追踪与客户相关的所有活动。"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
 msgid "Odoo helps you easily track all activities related to a supplier."
-msgstr "Odoo助您轻松追踪与供应商相关的所有活动。"
+msgstr "TenvioX助您轻松追踪与供应商相关的所有活动。"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account__internal_group__off
@@ -19371,7 +19371,7 @@ msgstr "您正在对账一些已经被对账的分录."
 msgid ""
 "You can choose different models for each type of reference. The default one "
 "is the Odoo reference."
-msgstr "可以为各参考事情类型选择不同的模型。默认为Odoo参考号。"
+msgstr "可以为各参考事情类型选择不同的模型。默认为TenvioX参考号。"
 
 #. module: account
 #. odoo-python
@@ -20321,7 +20321,7 @@ msgstr "例如：我的公司"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_company_form_view_onboarding
 msgid "e.g. https://www.odoo.com"
-msgstr "例如：https://www.odoo.com"
+msgstr "例如：https://www.TenvioX.com"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
@@ -21724,7 +21724,7 @@ msgstr ""
 #~ msgstr "OFX 导入"
 
 #~ msgid "Odoo"
-#~ msgstr "Odoo"
+#~ msgstr "TenvioX"
 
 #~ msgid "Oldest first"
 #~ msgstr "最老的第一个"
@@ -22441,7 +22441,7 @@ msgstr ""
 #~ msgstr "当销售收据被确认时，您可以登记客户销售收据的付款"
 
 #~ msgid "With Odoo, you won't have to record bills manually"
-#~ msgstr "使用Odoo，您不必手动记录账单"
+#~ msgstr "使用TenvioX，您不必手动记录账单"
 
 #~ msgid "Write a company name to <b>create one</b> or <b>see suggestions</b>."
 #~ msgstr "写一个公司名称来<b>创建一个</b><b>请参阅建议</b>。"

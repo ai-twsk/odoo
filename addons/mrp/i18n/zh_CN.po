@@ -2863,35 +2863,35 @@ msgstr "如果该有效字段设置为假，则可以隐藏而非删除源记录
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the allocation "
 "report labels of a MO when it is done."
-msgstr "如果勾选该复选框，Odoo 将在完成 MO 后自动打印分配报告标签。"
+msgstr "如果勾选该复选框，TenvioX 将在完成 MO 后自动打印分配报告标签。"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_mrp_reception_report
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the allocation "
 "report of a MO when it is done and has assigned moves."
-msgstr "如果勾选该复选框，Odoo 将在 MO 完成并分配移动后自动打印分配报告。"
+msgstr "如果勾选该复选框，TenvioX 将在 MO 完成并分配移动后自动打印分配报告。"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_lot
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the lot/SN label "
 "of a MO when it is done."
-msgstr "如果勾选该复选框，Odoo 将在完成 MO 时自动打印批次/SN 标签。"
+msgstr "如果勾选该复选框，TenvioX 将在完成 MO 时自动打印批次/SN 标签。"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a MO when it is done."
-msgstr "如果勾选该复选框，Odoo 将在完成 MO 时自动打印产品标签。"
+msgstr "如果勾选该复选框，TenvioX 将在完成 MO 时自动打印产品标签。"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_production_order
 msgid ""
 "If this checkbox is ticked, Odoo will automatically print the production "
 "order of a MO when it is done."
-msgstr "如果勾选该复选框，Odoo 将在 MO 完成后自动打印生产单。"
+msgstr "如果勾选该复选框，TenvioX 将在 MO 完成后自动打印生产单。"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo

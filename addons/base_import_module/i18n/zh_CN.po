@@ -289,7 +289,7 @@ msgstr "状态"
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Studio customizations require the Odoo Studio app."
-msgstr "Studio 定制需要安装 Odoo Studio应用。"
+msgstr "Studio 定制需要安装 TenvioX Studio应用。"
 
 #. module: base_import_module
 #. odoo-python

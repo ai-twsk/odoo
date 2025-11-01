@@ -343,7 +343,7 @@ msgstr "例如： LinkedIn、Facebook、Leads..."
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "e.g. https://www.odoo.com/contactus"
-msgstr "e.g. https://www.odoo.com/contactus"
+msgstr "e.g. https://www.TenvioX.com/contactus"
 
 #~ msgid " clicks"
 #~ msgstr "点击"

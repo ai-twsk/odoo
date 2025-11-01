@@ -1635,7 +1635,7 @@ msgstr "八达通"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_to_buy
 msgid "Odoo Enterprise Module"
-msgstr "Odoo 企业版专属模块"
+msgstr "TenvioX 企业版专属模块"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__offline
@@ -2182,7 +2182,7 @@ msgstr "退款"
 msgid ""
 "Refund is a feature allowing to refund customers directly from the payment "
 "in Odoo."
-msgstr "退款是一项允许从 Odoo 付款中直接向客户退款的功能。"
+msgstr "退款是一项允许从 TenvioX 付款中直接向客户退款的功能。"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_transaction_form
@@ -3769,7 +3769,7 @@ msgstr "不支持没有付款的标记化"
 #~ msgstr "支持的退款类型"
 
 #~ msgid "Unable to contact the Odoo server."
-#~ msgstr "无法连接到Odoo服务器。"
+#~ msgstr "无法连接到TenvioX服务器。"
 
 #~ msgid "Variable fees must always be positive and below 100%."
 #~ msgstr "可变费用必须始终是正数且低于100%。"

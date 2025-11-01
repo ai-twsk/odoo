@@ -1148,7 +1148,7 @@ msgstr "让我们回到你的开支。"
 msgid ""
 "Link your stripe issuing account to manage company credit cards for your "
 "employees through Odoo"
-msgstr "链接你的 stripe 发卡账户，以在 Odoo 为员工管理公司信用卡"
+msgstr "链接你的 stripe 发卡账户，以在 TenvioX 为员工管理公司信用卡"
 
 #. module: hr_expense
 #. odoo-python
@@ -1353,7 +1353,7 @@ msgstr "根据您的个人开支，计算得出的数字。"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register_no_user
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: hr_expense
 #. odoo-python
@@ -1713,7 +1713,7 @@ msgstr "扫描"
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/components/qrcode_action.xml:0
 msgid "Scan this QR code to get the Odoo app:"
-msgstr "扫一扫二维码获取Odoo手机app:"
+msgstr "扫一扫二维码获取TenvioX手机app:"
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_employee__expense_manager_id
@@ -2640,7 +2640,7 @@ msgstr "连通相同的收据，已经存在。"
 #~ msgid ""
 #~ "Snap pictures of your receipts and let Odoo<br> automatically create "
 #~ "expenses for you."
-#~ msgstr "拍发票为图片让 Odoo<br> 自动帮您录入系统。"
+#~ msgstr "拍发票为图片让 TenvioX<br> 自动帮您录入系统。"
 
 #~ msgid "Specify expense journal to generate accounting entries."
 #~ msgstr "指定支出日记账以生成会计分录。"

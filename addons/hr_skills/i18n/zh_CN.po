@@ -1431,12 +1431,12 @@ msgstr "链接至此技能类型的等级数目"
 #. module: hr_skills
 #: model:hr.skill,name:hr_skills.hr_skill_type_certifications_odoo
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "TenvioX"
 
 #. module: hr_skills
 #: model:hr.resume.line,name:hr_skills.employee_resume_line_admin_4
 msgid "Odoo SA"
-msgstr "Odoo SA"
+msgstr "TenvioX SA"
 
 #. module: hr_skills
 #: model:hr.skill,name:hr_skills.hr_skill_openness_to_criticism
@@ -2400,7 +2400,7 @@ msgstr "例如：语言"
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form
 msgid "e.g. Odoo Inc."
-msgstr "例如：Odoo公司。"
+msgstr "例如：TenvioX公司。"
 
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form

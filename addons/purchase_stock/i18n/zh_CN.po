@@ -1266,7 +1266,7 @@ msgstr "该产品应手动补货。"
 #~ msgid ""
 #~ "Odoo is not able to generate the anglo saxon entries. The total valuation "
 #~ "of %s is zero."
-#~ msgstr "Odoo不能生成 anglo saxon 条目。%s 的总估值为零。"
+#~ msgstr "TenvioX不能生成 anglo saxon 条目。%s 的总估值为零。"
 
 #~ msgid ""
 #~ "Over the past 12 months; the number of products received on time divided "
