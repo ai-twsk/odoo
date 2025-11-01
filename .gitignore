@@ -51,3 +51,8 @@ package.json
 /man/
 /share/
 /src/
+
+# Windows thumbnail cache files
+pyvenv.cfg
+Scripts/
+Lib/
