@@ -1,0 +1,13 @@
+<odoo>
+    <templates id="gov_chat_templates" xml:space="preserve">
+        <t t-name="gov_master.GovChatInterface">
+            <div class="gov-chat-box">
+                <div id="gov_chat_messages" class="gov-chat-messages"></div>
+                <div class="gov-chat-input">
+                    <input type="text" id="gov_chat_input" placeholder="请输入消息..." class="o_input"/>
+                    <button type="button" id="gov_chat_send" class="btn btn-primary">发送</button>
+                </div>
+            </div>
+        </t>
+    </templates>
+</odoo>

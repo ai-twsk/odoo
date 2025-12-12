@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="tenviox_layout" inherit_id="web.layout" name="TenvioX Layout">
+        <xpath expr="//head/link[@rel='shortcut icon']" position="replace">
+            <link rel="shortcut icon" href="/tenviox_branding/static/src/img/favicon.ico" type="image/x-icon"/>
+        </xpath>
+        
+        <xpath expr="//title" position="replace">
+             <title t-esc="title or 'TenvioX'"/>
+        </xpath>
+    </template>
+
+    <template id="tenviox_login_layout" inherit_id="web.login_layout" name="TenvioX Login Footer">
+        <xpath expr="//div[hasclass('card-body')]/div[hasclass('text-center') and hasclass('small') and hasclass('border-top')]" position="replace">
+            <div class="text-center small mt-4 pt-3 border-top" t-if="not disable_footer">
+                技术支持: <a href="mailto:it-support@data-os.cn" style="color: var(--o-brand-primary);">it-support@data-os.cn</a>
+                <br/>
+                © 2025 北京天纬数科 (TenvioX)
+                <t t-if="not disable_database_manager">
+                    <a class="border-end pe-2 me-1" href="/web/database/manager">管理数据库</a>
+                </t>
+            </div>
+        </xpath>
+    </template>
+    
+    <template id="tenviox_brand_promotion_message" inherit_id="web.brand_promotion_message" name="TenvioX Brand Promotion Message" priority="1">
+        <xpath expr="//t[@t-set='odoo_logo']" position="replace">
+            <t t-set="odoo_logo">
+                <a target="_blank"
+                    t-attf-href="https://www.data-os.cn/?utm_source=db&amp;utm_medium=#{_utm_medium}"
+                    class="badge text-bg-light">
+                    <img alt="TenvioX"
+                        src="/tenviox_branding/static/description/logo.png"
+                        width="80" height="20"
+                        style="width: auto; height: 1em; vertical-align: baseline;"/>
+                </a>
+            </t>
+        </xpath>
+        
+        <xpath expr="//t[@t-set='final_message']" position="replace">
+            <t t-set="final_message">技术支持: %s%s</t>
+        </xpath>
+    </template>
+</odoo>

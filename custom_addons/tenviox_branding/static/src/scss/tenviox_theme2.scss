@@ -1,0 +1,88 @@
+.o_panel, .o_form_view, .o_kanban_card {
+@include tenviox-card();
+padding: $tenviox-spacing-md;
+h1, h2, h3, h4, h5 {
+color: #0b1220;
+font-weight: $tenviox-font-heading-weight;
+}
+}
+
+
+// 按钮风格
+.btn {
+border-radius: $tenviox-radius-sm;
+padding: 0.5rem 0.875rem;
+&.btn-primary {
+background: linear-gradient(180deg, $tenviox-primary 0%, $tenviox-primary-600 100%);
+border: none;
+color: #ffffff;
+box-shadow: 0 6px 18px rgba(37,99,235,0.12);
+&:hover {
+filter: brightness(0.98);
+}
+}
+&.btn-secondary {
+background: transparent;
+border: 1px solid $tenviox-border;
+color: #0f172a;
+}
+}
+
+
+// 表格
+.o_list_view .o_list_table tr:hover {
+background: $tenviox-table-row-hover;
+}
+
+
+// 表单输入
+.o_field_widget input, .o_field_widget textarea, .o_input {
+background: $tenviox-input-bg;
+border: 1px solid $tenviox-input-border;
+border-radius: $tenviox-radius-sm;
+padding: 0.45rem 0.6rem;
+&:focus {
+outline: none;
+box-shadow: 0 0 0 3px rgba(red($tenviox-input-focus), green($tenviox-input-focus), blue($tenviox-input-focus), 0.08);
+border-color: $tenviox-input-focus;
+}
+}
+
+
+// 标签 / pill
+.o_chip {
+background: $tenviox-muted-bg;
+color: $tenviox-muted;
+border-radius: 999px;
+padding: 0.2rem 0.55rem;
+font-size: 12px;
+}
+
+
+// 小屏/响应式调整
+@media (max-width: 768px) {
+.o_main_navbar .o_navbar_brand { font-size: 16px; }
+.o_panel { padding: $tenviox-spacing-sm; }
+}
+
+
+// 其他细节：高对比度修正
+// 修复你之前提到的“列表元素字体白色问题”
+.o_tree_view .o_data_cell, .o_list_view .o_list_table td {
+color: #0f172a !important;
+}
+
+
+// 优雅的分隔线
+hr {
+border: none;
+height: 1px;
+background: $tenviox-border;
+}
+
+
+// 表单帮助文字
+.o_form_label .o_form_hint {
+color: $tenviox-muted;
+font-size: 12px;
+}

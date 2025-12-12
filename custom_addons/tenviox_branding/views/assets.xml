@@ -1,0 +1,18 @@
+<!-- tenviox_theme/views/assets.xml -->
+<odoo>
+    <!-- 
+        注意：Odoo 15+（包括 19.0）推荐通过 __manifest__.py 的 'assets' 字段管理静态资源，
+        因此本文件主要用于结构完整性或未来扩展（如需要条件加载 JS 等）。
+        当前主题样式已通过 manifest 中的 assets 配置自动加载，无需在此重复声明 CSS。
+    -->
+
+    <!-- 示例：如未来需注入自定义 JS（当前不需要，已注释） -->
+    <!--
+    <template id="tenviox_custom_js" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/tenviox_theme/static/src/js/tenviox.js"></script>
+        </xpath>
+    </template>
+    -->
+
+</odoo>

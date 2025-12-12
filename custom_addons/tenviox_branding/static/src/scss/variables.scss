@@ -1,0 +1,14 @@
+// 覆盖 Odoo 常用变量（若存在）
+$primary: $tenviox-primary;
+$body-bg: $tenviox-bg;
+$body-font-family: $tenviox-font-family;
+$body-font-size: $tenviox-font-base-size;
+
+
+// 导出一些便捷 mixin
+@mixin tenviox-card($radius: $tenviox-radius-md) {
+background: $tenviox-surface;
+border-radius: $radius;
+box-shadow: $tenviox-shadow-1;
+border: 1px solid $tenviox-border;
+}

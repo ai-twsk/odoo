@@ -1,0 +1,14 @@
+<odoo>
+    <menuitem id="menu_gov_root" name="Gov Master"/>
+
+    <menuitem id="menu_gov_chat_root"
+              name="智能对话"
+              parent="menu_gov_root"
+              sequence="10"/>
+
+    <menuitem id="menu_gov_chat_session"
+              name="对话会话"
+              parent="menu_gov_chat_root"
+              action="action_gov_chat_session"
+              sequence="1"/>
+</odoo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 自定义模块分类，Odoo 19 必须显式创建 -->
+    <record id="module_category_library" model="ir.module.category">
+        <field name="name">Library</field>
+        <field name="sequence">10</field>
+        <field name="description">Library Management Module Category</field>
+    </record>
+
+    <!-- 定义用户组 -->
+    <record id="group_library_manager" model="res.groups">
+        <field name="name">Library Manager</field>
+        <field name="comment">Users with this group can manage library books</field>
+    </record>
+</odoo>

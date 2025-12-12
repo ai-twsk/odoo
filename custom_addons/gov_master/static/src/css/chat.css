@@ -1,0 +1,33 @@
+.gov-chat-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+.chat-msg {
+    margin: 5px 0;
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+.chat-msg.user {
+    background: #e6f7ff;
+    align-self: flex-end;
+}
+.chat-msg.bot {
+    background: #f0f0f0;
+    align-self: flex-start;
+}
+.chat-input {
+    display: flex;
+    gap: 10px;
+}
+#chat-input-text {
+    flex: 1;
+}

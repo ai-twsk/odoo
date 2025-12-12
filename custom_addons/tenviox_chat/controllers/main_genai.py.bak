@@ -1,0 +1,77 @@
+# odoo_gemini_chat/controllers/main.py
+from odoo import http
+from odoo.http import request
+import json
+import time
+
+try:
+    from google import genai
+    from google.genai import types
+    from google.genai.errors import APIError
+    
+except ImportError:
+    genai = None
+    types = None
+    APIError = None
+
+
+class GeminiChatController(http.Controller):
+
+    @http.route('/gemini/chat/send', type='json', auth='user', methods=['POST'], csrf=True)
+    def send_message(self, prompt, model_name='glm-4.5-flash'):
+        """ 处理前端发送的消息，调用 TenvioX API，并记录历史 """
+        
+        if not genai:
+            return {'error': "The 'google-genai' library is not installed on the server."}
+        
+        start_time = time.time()
+        ICPSudo = request.env['ir.config_parameter'].sudo()
+        api_key = ICPSudo.get_param('zhipu.api.key')
+        
+        if not api_key:
+            return {'error': "TenvioX API Key is not configured. Please contact the administrator."}
+
+        # 1. 初始化 Gemini 客户端
+        try:
+            client = genai.Client(api_key=api_key)
+        except Exception as e:
+            return {'error': f"Failed to initialize Gemini client: {str(e)}"}
+            
+        gemini_response = ""
+        is_successful = False
+        
+        try:
+            # 2. 调用生成 API
+            config = types.GenerateContentConfig(
+                system_instruction="You are an helpful and friendly AI assistant integrated into an Odoo ERP system. Be concise and accurate."
+            )
+            response = client.models.generate_content(
+                model=model_name,
+                contents=[prompt],
+                config=config,
+            )
+            gemini_response = response.text
+            is_successful = True
+            
+        except APIError as e:
+            gemini_response = f"Gemini API Error: {str(e)}"
+        except Exception as e:
+            gemini_response = f"An unexpected error occurred: {str(e)}"
+            
+        end_time = time.time()
+        
+        # 3. 记录对话历史
+        request.env['gemini.chat.history'].sudo().create({
+            'user_id': request.env.user.id,
+            'prompt': prompt,
+            'response': gemini_response,
+            'model_name': model_name,
+            'request_time': end_time - start_time,
+            'is_successful': is_successful,
+        })
+        
+        # 4. 返回结果给前端
+        return {
+            'response': gemini_response,
+            'successful': is_successful
+        }

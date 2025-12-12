@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem 
+        id="menu_gemini_root" 
+        name="TenvioX AI" 
+        sequence="20" 
+        web_icon="fa fa-magic"/>
+
+    <record id="action_gemini_configuration" model="ir.actions.act_window">
+        <field name="name">TenvioX API Configuration</field>
+        <field name="res_model">zhipu.configuration</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <record id="view_gemini_configuration_form" model="ir.ui.view">
+        <field name="name">gemini.configuration.form</field>
+        <field name="model">zhipu.configuration</field>
+        <field name="arch" type="xml">
+            <form string="Gemini API Configuration">
+                <sheet>
+                    <group>
+                        <field name="current_key_display"/>
+                        <field name="zhipu_api_key" password="True" placeholder="Paste your Gemini API Key here"/>
+                    </group>
+                    <footer>
+                        <button name="save_configuration" string="Save Key" type="object" class="oe_highlight"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <menuitem 
+        id="menu_gemini_config" 
+        name="Configuration" 
+        parent="menu_gemini_root" 
+        action="action_gemini_configuration"
+        sequence="10"/>
+
+    <record id="action_gemini_chat_history" model="ir.actions.act_window">
+        <field name="name">Chat History</field>
+        <field name="res_model">zhipu.chat.history</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="view_gemini_chat_history_tree" model="ir.ui.view">
+        <field name="name">gemini.chat.history.tree</field>
+        <field name="model">zhipu.chat.history</field>
+        <field name="arch" type="xml">
+            <list decoration-danger="not is_successful"> <field name="create_date" string="Date"/>
+                <field name="user_id"/>
+                <field name="prompt"/>
+                <field name="model_name"/>
+                <field name="request_time"/>
+                <field name="is_successful" widget="toggle_button"/>
+            </list> </field>
+    </record>
+
+    <menuitem 
+        id="menu_gemini_history" 
+        name="Chat History" 
+        parent="menu_gemini_root" 
+        action="action_gemini_chat_history"
+        sequence="20"/>
+
+    <record id="action_gemini_chat_client" model="ir.actions.client">
+        <field name="name">TenvioX Chat</field>
+        <field name="tag">gemini.chat.widget</field>
+    </record>
+
+    <menuitem
+        id="menu_gemini_chat_main"
+        name="AI Assistant"
+        parent="menu_gemini_root"
+        action="action_gemini_chat_client"
+        sequence="5"/>
+        
+</odoo>

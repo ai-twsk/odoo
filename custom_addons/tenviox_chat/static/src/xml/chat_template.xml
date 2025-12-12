@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="odoo_gemini_chat.GeminiChatWidget" owl="1">
+        <div class="o_gemini_chat_container h-100 d-flex flex-column">
+            <div class="o_gemini_chat_header bg-primary text-white p-3 shadow-sm flex-shrink-0">
+                <h4><i class="fa fa-rocket"/> TenvioX AI Assistant</h4>
+                <p class="mb-0">Ask anything about your data or general knowledge.</p>
+            </div>
+            
+            <div class="o_gemini_chat_body p-3 flex-grow-1 overflow-auto" t-ref="chatBody">
+                 <t t-foreach="state.history" t-as="msg" t-key="msg_index">
+                    <div t-attf-class="o_gemini_chat_message mb-2 message-{{msg.type}}">
+                         <div t-if="msg.type == 'user'" class="d-flex justify-content-end">
+                             <div class="o_gemini_chat_bubble user-bubble p-2 rounded-lg shadow-sm">
+                                <div class="o_gemini_chat_sender font-weight-bold text-right text-muted small"><t t-esc="msg.sender"/></div>
+                                <div class="o_gemini_chat_text text-break"><t t-esc="msg.text"/></div>
+                                <div class="o_gemini_chat_time text-right small text-black-50"><t t-esc="msg.timestamp"/></div>
+                            </div>
+                        </div>
+                        <div t-else="" class="d-flex justify-content-start">
+                             <div t-attf-class="o_gemini_chat_bubble {{msg.type}}-bubble p-2 rounded-lg shadow-sm">
+                                <div class="o_gemini_chat_sender font-weight-bold text-muted small"><t t-esc="msg.sender"/></div>
+                                <div class="o_gemini_chat_text text-break"><t t-esc="msg.text"/></div>
+                                <div class="o_gemini_chat_time small text-black-50"><t t-esc="msg.timestamp"/></div>
+                            </div>
+                        </div>
+                    </div>
+                 </t>
+            </div>
+            
+            <div class="o_gemini_chat_footer p-3 border-top flex-shrink-0">
+                <div class="input-group">
+                    <textarea 
+                        class="form-control" 
+                        rows="1" 
+                        placeholder="Type your message... (Shift+Enter for new line)"
+                        style="resize: none; max-height: 100px; overflow-y: auto;"
+                        t-model="state.currentInput"
+                        t-on-keydown="_onInputKeydown"
+                        t-att-disabled="state.isSending"
+                        />
+                    <div class="input-group-append">
+                        <button 
+                            class="btn btn-primary" 
+                            type="button"
+                            t-on-click="_onSendMessage"
+                            t-att-disabled="state.isSending">
+                            <i t-if="!state.isSending" class="fa fa-paper-plane"/>
+                            <i t-else="" class="fa fa-spinner fa-spin"/>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+
+</templates>

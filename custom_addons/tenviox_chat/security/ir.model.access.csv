@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gemini_chat_history_user,Gemini Chat History User,model_gemini_chat_history,base.group_user,1,0,1,0
+access_gemini_config_manager,Gemini Config Manager,model_gemini_configuration,base.group_erp_manager,1,1,1,1
+access_zhipu_chat_history_user,Zhipu Chat History User,model_zhipu_chat_history,base.group_user,1,0,1,0
+access_zhipu_config_manager,Zhipu Config Manager,model_zhipu_configuration,base.group_erp_manager,1,1,1,1

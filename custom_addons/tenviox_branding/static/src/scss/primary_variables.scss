@@ -1,0 +1,64 @@
+// TenvioX Light Tech palette — 基于你提供的默认变量进行覆盖与扩展
+// 导出常用色彩变量，方便后续使用
+
+
+// Primary brand
+$tenviox-primary: #2563eb !default; // 科技蓝 - 主色
+$tenviox-primary-600: #1e4fd0 !default;
+$tenviox-primary-400: #3b82f6 !default; // 辅助高光
+
+
+// Neutral / background
+$tenviox-bg: #f6f8fb !default; // 主背景（非常浅）
+$tenviox-surface: #ffffff !default; // 卡片/面板背景
+$tenviox-muted: #6b7280 !default; // 次级文本
+$tenviox-border: #e6eef8 !default; // 边框
+
+
+// Accent & semantic
+$tenviox-success: #10b981 !default;
+$tenviox-warning: #f59e0b !default;
+$tenviox-danger: #ef4444 !default;
+
+
+// Elevation shadows (soft)
+$tenviox-shadow-1: 0 1px 2px rgba(16,24,40,0.04);
+$tenviox-shadow-2: 0 6px 20px rgba(16,24,40,0.06);
+
+
+// Radius
+$tenviox-radius-sm: 6px !default;
+$tenviox-radius-md: 10px !default;
+$tenviox-radius-lg: 14px !default;
+
+
+// Spacing base — 保持与 Odoo 原变量兼容
+$tenviox-spacing-xs: 4px;
+$tenviox-spacing-sm: 8px;
+$tenviox-spacing-md: 16px;
+$tenviox-spacing-lg: 24px;
+
+
+// Typography tweaks
+$tenviox-font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif !default;
+$tenviox-font-base-size: 14px !default;
+$tenviox-font-heading-weight: 600 !default;
+
+
+// form control
+$tenviox-input-bg: #ffffff !default;
+$tenviox-input-border: #dbe9ff !default;
+$tenviox-input-focus: $tenviox-primary-400 !default;
+
+
+// navbar
+$tenviox-navbar-bg: #ffffff !default;
+$tenviox-navbar-border: #eef6ff !default;
+
+
+// table
+$tenviox-table-row-hover: #f3f6fb !default;
+
+
+// small utilities
+$tenviox-muted-bg: #f8fafc !default;

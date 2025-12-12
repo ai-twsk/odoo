@@ -1,0 +1,75 @@
+<odoo>
+    <!-- 列表视图 -->
+    <record id="view_library_book_list" model="ir.ui.view">
+        <field name="name">library.book.list</field>
+        <field name="model">library.book</field>
+        <field name="arch" type="xml">
+            <list string="Books">
+                <field name="name"/>
+                <field name="author"/>
+                <field name="isbn"/>
+                <field name="category"/>
+                <field name="date_published"/>
+                <field name="age_in_years"/>
+                <field name="active"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- 表单视图 -->
+    <record id="view_library_book_form" model="ir.ui.view">
+        <field name="name">library.book.form</field>
+        <field name="model">library.book</field>
+        <field name="arch" type="xml">
+            <form string="Book Form">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="author"/>
+                        <field name="isbn"/>
+                    </group>
+                    <group>
+                        <field name="category"/>
+                        <field name="date_published"/>
+                        <field name="age_in_years" readonly="1"/>
+                        <field name="active"/>
+                    </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description"/>
+                        </page>
+                    </notebook>
+                </sheet>
+                <footer>
+                    <button string="Mark as Old" type="object" name="action_mark_old_books" class="btn-secondary"/>
+                    <button string="Save" type="object" class="btn-primary" special="save"/>
+                    <button string="Discard" type="object" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!-- 动作（点击菜单时打开） -->
+    <record id="action_library_book" model="ir.actions.act_window">
+        <field name="name">Books</field>
+        <field name="res_model">library.book</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p>
+                Manage your library books here. You can create, edit, or delete records.
+            </p>
+        </field>
+    </record>
+
+    <!-- 菜单 -->
+    <menuitem id="menu_library_root"
+              name="Library Management"
+              sequence="1"
+              web_icon="library_management,static/description/icon.png"/>
+
+    <menuitem id="menu_library_books"
+              name="Books"
+              parent="menu_library_root"
+              action="action_library_book"
+              sequence="2"/>
+</odoo>

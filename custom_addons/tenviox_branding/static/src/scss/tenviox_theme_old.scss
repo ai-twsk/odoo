@@ -1,0 +1,322 @@
+// ============================================================================
+//  TenvioX Tech Theme for Odoo 19 (Final, with fixes for list contrast & overrides)
+//  Includes custom font AlibabaPuHuiTi and full theme tokens
+// ============================================================================
+
+// ---------------------------------------------------------------------------
+// 0. 注意：如果你把这个文件放到 static/src/scss/，字体路径 ../fonts/*.ttf 是正确的
+// ---------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
+// 1. 自定义字体 AlibabaPuHuiTi
+// ---------------------------------------------------------------------------
+@font-face {
+    font-family: 'AlibabaPuHuiTi';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/AlibabaPuHuiTi-3-35-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlibabaPuHuiTi';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/AlibabaPuHuiTi-3-45-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlibabaPuHuiTi';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/AlibabaPuHuiTi-3-55-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlibabaPuHuiTi';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/AlibabaPuHuiTi-3-65-Medium.ttf') format('truetype');
+}
+
+// 全局字体应用（带中文 fallback）
+html, body, .o_web_client, .o_menu_brand, button, input, select, textarea {
+    font-family: 'AlibabaPuHuiTi', "HarmonyOS Sans SC", "Microsoft YaHei", sans-serif !important;
+}
+
+// ---------------------------------------------------------------------------
+// 2. 主题色（科技蓝）
+// ---------------------------------------------------------------------------
+$primary-color: #2979FF;
+$secondary-color: #00C6FF;
+$success-color: #34D399;
+$warning-color: #FBBF24;
+$error-color: #F87171;
+
+$bg-dark: #0D1117;
+$bg-dark-2: #0B1220;   // 调整为更协调的深蓝/灰（避免死黑 #161B22）
+
+$text-light: #E6EDF3;  // 用于 card header / 较亮文本
+$text-bright: #F5F9FF; // 用于强调的白色
+$text-dark: #0F1724;   // 用于列表 / 表格中深色文本（提高对比）
+$border-weak: rgba(255,255,255,0.06);
+
+// ---------------------------------------------------------------------------
+// 3. 全局布局与背景
+// ---------------------------------------------------------------------------
+.o_web_client {
+    background: linear-gradient(180deg, $bg-dark 0%, $bg-dark-2 100%) !important;
+    color: $text-bright !important;
+    min-height: 100vh;
+}
+
+// 卡片风格（玻璃 + 浅边框），但列表会做特殊处理（见下）
+.o_form_view, .o_kanban_view {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 1px solid $border-weak;
+}
+
+// 全局滚动条
+*::-webkit-scrollbar {
+    width: 6px;
+}
+*::-webkit-scrollbar-thumb {
+    background: $primary-color;
+    border-radius: 3px;
+}
+
+// ---------------------------------------------------------------------------
+// 4. 顶部导航栏（整体）
+// ---------------------------------------------------------------------------
+.o_main_navbar {
+    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 100%) !important;
+    border-bottom: none !important;
+    height: 48px !important;
+
+    .o_menu_brand {
+        font-size: 16px;
+        font-weight: 600;
+        color: $text-bright !important;
+    }
+
+    a, .dropdown-toggle {
+        color: $text-bright !important;
+        transition: color 0.2s ease, opacity 0.2s ease;
+    }
+    a:hover {
+        opacity: 0.9;
+    }
+}
+
+/* ---------------------------------------------------------------------------
+   4.1 关键覆盖：彻底替换 Odoo 默认的紫色（覆盖高优先级选择器）
+   包括 .o_nav_entry 与 .dropdown-toggle:not(.o-dropdown-toggle-custo)
+   我们使用与原选择器相同的选择器并加上 !important。
+--------------------------------------------------------------------------- */
+.o_main_navbar .o_nav_entry,
+.o_main_navbar .dropdown-toggle:not(.o-dropdown-toggle-custo) {
+    /* 取消默认紫色，替换为柔和科技蓝（非 hover） */
+    background: linear-gradient(90deg, rgba(41,121,255,0.30), rgba(0,198,255,0.20)) !important;
+    border: 1px solid rgba(255,255,255,0.06) !important; /* subtle border */
+    border-color: transparent !important; /* 如果需要透明边框，保留此行 */
+    color: $text-bright !important;
+    box-shadow: none !important;
+}
+
+/* Hover / Active 状态 */
+.o_main_navbar .o_nav_entry:hover,
+.o_main_navbar .dropdown-toggle:not(.o-dropdown-toggle-custo):hover {
+    background: linear-gradient(90deg, rgba(41,121,255,0.55), rgba(0,198,255,0.48)) !important;
+    border: 1px solid rgba(0,198,255,0.65) !important;
+    box-shadow: 0 0 6px rgba(0,150,255,0.35) !important;
+    color: $text-bright !important;
+}
+
+/* 如果有 active 状态（当前项），额外强调 */
+.o_main_navbar .o_nav_entry.active,
+.o_main_navbar .o_nav_entry.o_selected {
+    background: linear-gradient(90deg, rgba(41,121,255,0.70), rgba(0,198,255,0.60)) !important;
+    box-shadow: 0 0 10px rgba(0,150,255,0.45) !important;
+}
+
+/* ---------------------------------------------------------------------------
+   5. 侧边栏与 App 切换器（避免死黑，使用协调的深蓝渐变）
+--------------------------------------------------------------------------- */
+.o_navbar_apps_menu,
+.o_app_switcher {
+    background: radial-gradient(circle at 30% 20%, #08101a 0%, $bg-dark-2 60%, #05070a 100%) !important;
+    border-left: 1px solid rgba(255,255,255,0.04) !important;
+    backdrop-filter: blur(6px);
+    color: $text-bright !important;
+}
+
+/* App 图标容器风格 */
+.o_app {
+    background: rgba(255,255,255,0.04) !important;
+    border: 1px solid rgba(255,255,255,0.06) !important;
+    border-radius: 12px !important;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.o_app:hover {
+    border-color: $primary-color !important;
+    box-shadow: 0 0 12px rgba(41,121,255,0.35) !important;
+    transform: translateY(-4px) !important;
+}
+
+/* ---------------------------------------------------------------------------
+   6. 表单视图（保持暗色卡片与高亮输入）
+--------------------------------------------------------------------------- */
+.o_form_sheet_bg {
+    background: transparent !important;
+}
+
+.o_form_sheet {
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 6px 20px rgba(0,150,255,0.10) !important;
+    border: 1px solid rgba(255,255,255,0.04) !important;
+}
+
+.o_group, .o_inner_group {
+    color: $text-bright !important;
+}
+
+.o_input, .o_field_widget input, textarea, select {
+    color: $text-bright !important;
+    background: rgba(255,255,255,0.06) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 8px !important;
+}
+.o_input:focus, .o_field_widget input:focus, textarea:focus, select:focus {
+    border-color: $primary-color !important;
+    box-shadow: 0 0 10px rgba(0,150,255,0.28) !important;
+    background: rgba(255,255,255,0.08) !important;
+}
+
+/* ---------------------------------------------------------------------------
+   7. 列表视图（List View） — 重点修正区域
+   目标：解决“列表元素字体白色与背景接近不清晰”的问题
+   方案：把表格视为浅色卡片（稍亮背景），并把表格文本改为深色（$text-dark）
+--------------------------------------------------------------------------- */
+
+/* 列表容器外观（保持卡片） */
+.o_list_view {
+    background: transparent !important; /* keep page dark but table area styled separately */
+}
+
+/* 列表表头/表格卡片容器：使用浅卡片背景以保证文字对比 */
+.o_list_view .o_list_table_wrapper,
+.o_list_view table {
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255,255,255,0.04) !important;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.28) inset;
+    color: $text-dark !important; /* 关键：把列表文本设置为深色以提高对比 */
+}
+
+/* 表头采用浅色背景但文字为深色以保证对比 */
+.o_list_view th {
+    background: rgba(255,255,255,0.10) !important;
+    color: $text-dark !important;
+    font-weight: 600 !important;
+}
+
+/* 表格单元格 */
+.o_list_view td {
+    color: $text-dark !important; /* 关键修复点 */
+    border-color: rgba(255,255,255,0.04) !important;
+}
+
+/* 如果某些 list 行本身带有深色背景（自定义），使文字回到浅色 */
+.o_list_view tbody tr.o_row_strong,
+.o_list_view tbody tr.o_selected {
+    color: $text-bright !important;
+}
+
+/* Hover 行效果（稍亮）*/
+.o_list_view tbody tr:hover td {
+    background: rgba(0,122,255,0.06) !important;
+    color: $text-dark !important;
+}
+
+/* 分页、按钮在列表上的样式 */
+.o_list_view .o_pager, .o_list_view .o_button {
+    color: $text-bright !important;
+}
+
+/* ---------------------------------------------------------------------------
+   8. Kanban 视图（轻微优化）
+--------------------------------------------------------------------------- */
+.o_kanban_card, .o_kanban_card .o_kanban_record {
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)) !important;
+    border: 1px solid rgba(255,255,255,0.06) !important;
+    border-radius: 12px !important;
+    color: $text-dark !important;
+}
+.o_kanban_card:hover {
+    border-color: $primary-color !important;
+    box-shadow: 0 8px 24px rgba(41,121,255,0.12) !important;
+}
+
+/* ---------------------------------------------------------------------------
+   9. 按钮（对比优化）
+--------------------------------------------------------------------------- */
+.btn {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
+/* 主按钮：保持显眼（白字）*/
+.btn-primary {
+    color: #fff !important;
+    background: linear-gradient(90deg, $primary-color, $secondary-color) !important;
+    border: none !important;
+    box-shadow: 0 6px 18px rgba(41,121,255,0.14) !important;
+}
+.btn-primary:hover { opacity: 0.95 !important; transform: translateY(-1px) !important; }
+
+/* 次按钮：稍亮背景 + 深色文字以便在浅表格内也清晰 */
+.btn-secondary {
+    color: $text-dark !important;
+    background: rgba(255,255,255,0.90) !important; /* 高对比备用样式（在浅表格场景下） */
+    border: 1px solid rgba(0,0,0,0.06) !important;
+}
+
+/* 警告/成功按钮保持可辨识色 */
+.btn-success { background: $success-color !important; color: #fff !important; }
+.btn-warning { background: $warning-color !important; color: #111 !important; }
+.btn-danger  { background: $error-color !important; color: #fff !important; }
+
+/* ---------------------------------------------------------------------------
+   10. 登录页 & 小组件
+--------------------------------------------------------------------------- */
+.o_login {
+    background: radial-gradient(circle at 30% 30%, #0B1B3A 0%, $bg-dark 60%) !important;
+}
+.o_login input {
+    background: rgba(255,255,255,0.08) !important;
+    color: $text-bright !important;
+    border-color: rgba(255,255,255,0.14) !important;
+}
+.o_login .btn-primary {
+    background: linear-gradient(90deg, $primary-color, $secondary-color) !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------------------------------
+   11. 兼容性补丁（避免被其他 CSS 覆盖）
+   — 一些 Odoo 内置变量和特定类可能会覆盖我们的样式，使用高优先级选择器 + !important
+--------------------------------------------------------------------------- */
+.o_main_navbar .o_menu_sections .dropdown-toggle,
+.o_main_navbar .o_nav_entry,
+.o_main_navbar .dropdown-toggle,
+.o_main_navbar .o_menu_brand,
+.o_navbar_apps_menu,
+.o_app_switcher {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---------------------------------------------------------------------------
+   12. 额外提示（部署后检查）
+   - 若你仍看到 #71639e 的元素，请使用浏览器开发者工具定位具体组件的 selector，
+     我可以为你添加精确的 inherit_id 或更高优先级的覆盖规则（例如带父级 .o_main_navbar 的更长选择器）。
+--------------------------------------------------------------------------- */

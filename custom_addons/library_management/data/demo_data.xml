@@ -1,0 +1,19 @@
+<odoo>
+    <record id="demo_book_1" model="library.book">
+        <field name="name">Introduction to Odoo</field>
+        <field name="author">M. Dev</field>
+        <field name="isbn">978-0-123456-47-2</field>
+        <field name="date_published">2020-01-01</field>
+        <field name="category">science</field>
+        <field name="description">A beginner-friendly guide to Odoo development.</field>
+    </record>
+
+    <record id="demo_book_2" model="library.book">
+        <field name="name">Advanced Odoo Customization</field>
+        <field name="author">Expert Dev</field>
+        <field name="isbn">978-0-765432-11-8</field>
+        <field name="date_published">2018-06-12</field>
+        <field name="category">nonfiction</field>
+        <field name="description">In-depth coverage of Odoo ORM and module design.</field>
+    </record>
+</odoo>
